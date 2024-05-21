@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 0;
+}
+
+.container {
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    min-height: 400px;
+    min-width: 400px;
+}
+
+.squares {
+    display: flex;
+    flex-grow: 1;
+    border-style: solid;
+}
+
+.row {
+    display: flex;
+    flex-grow: 1;
+}
