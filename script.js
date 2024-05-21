@@ -14,7 +14,9 @@ function createDiv() {
     let newDiv = document.createElement("div");
     newDiv.classList.add("squares");
     newDiv.addEventListener('mouseover', function() {
-        newDiv.style.backgroundColor = 'salmon';
+        // console.log(newDiv.style.backgroundColor);
+        // console.log(newDiv.style.backgroundColor === "rgb(255, 255, 255)");
+        newDiv.style.backgroundColor = `rgb(${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)})`;
     })
     return newDiv;
 }

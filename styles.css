@@ -17,6 +17,7 @@ body {
 .squares {
     display: flex;
     flex-grow: 1;
+    background-color: rgb(255, 255, 255);
     border-style: solid;
 }
 
